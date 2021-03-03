@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GetDoublesW</class>
+ <widget class="QDialog" name="GetDoublesW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>829</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Поиск дубликатов файлов</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>PSE_PyQt_1.ico</normaloff>PSE_PyQt_1.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="pushButton_Choose">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>14</y>
+     <width>241</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбрать начальный каталог</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Exit">
+   <property name="geometry">
+    <rect>
+     <x>706</x>
+     <y>59</y>
+     <width>108</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_start_dir">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>14</y>
+     <width>548</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Search">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>59</y>
+     <width>241</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Поиск дублей с размером &gt;</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_result">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>103</y>
+     <width>801</width>
+     <height>312</height>
+    </rect>
+   </property>
+   <property name="lineWrapMode">
+    <enum>QPlainTextEdit::NoWrap</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSliderSize">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>59</y>
+     <width>254</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSize">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>59</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxMult">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>59</y>
+     <width>68</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

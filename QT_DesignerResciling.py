@@ -1,5 +1,5 @@
-old_file = "GetDoublesGUIOld.ui" #"SoundAlphaOld.ui"
-new_file = "GetDoublesGUINew.ui" #"SoundAlphaNew.ui"
+old_file = "GetDoublesGUIOld.ui"  #"SoundAlphaOld.ui"
+new_file = "GetDoublesGUINew.ui"  #"SoundAlphaNew.ui"
 
 # Old resolution
 oldx = 1920.0
